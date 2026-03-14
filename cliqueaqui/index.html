@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+
+<h1>Formulário</h1>
+<p>Você é Victor Hugo?</p>
+
+<button id="yesBtn">Sim</button>
+<button id="noBtn">Não</button>
+
+<div id="message"></div>
+
+<div id="album" style="display:none;">
+
+<div class="livro">
+<img id="fotoAlbum" src="firmo_album/firmo1.jpg">
+<p id="legenda"></p>
+</div>
+
+<div class="botoes">
+<button onclick="voltarFoto()">⬅</button>
+<button onclick="proximaFoto()">➡</button>
+</div>
+
+</div>
+
+</div>
+
+<audio id="music" src="champion.mp3"></audio>
+
+<script src="clique.js"></script>
+</body>
+</html>
